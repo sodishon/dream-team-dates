@@ -1,5 +1,5 @@
 
-fetch('data/deadlines.csv')
+fetch('deadlines.csv')
 .then(r=>r.text())
 .then(t=>{
  const rows=t.trim().split('\n').slice(1).map(r=>r.split(','));
