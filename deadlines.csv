@@ -1,10 +1,10 @@
-Campus,Date,Deadline
-LSUH-NO (DNP),2026-06-30,Fall Application Deadline
-LSUH-NO (BSPH),2026-07-15,Fall Application Deadline
-LSUA,2026-07-20,Fall 1 Application Deadline
-LSUA,2026-08-10,Fall 1 Document Deadline
-LSUH-NO (BSPH),2026-08-17,Fall Class Start Date
-LSUH-NO (DNP),2026-08-17,Fall Class Start Date
-LSUE,2026-08-17,Fall 1 Application Deadline
-LSUA,2026-08-18,Fall 1 Registration Deadline
-LSUE,2026-08-20,Fall 1 Early Registration Deadline
+Campus,Date,Session,Milestone
+LSUH-NO (DNP),2026-06-30,Fall,Application Deadline
+LSUH-NO (BSPH),2026-07-15,Fall,Application Deadline
+LSUA,2026-07-20,Fall 1,Application Deadline
+LSUA,2026-08-10,Fall 1,Document Deadline
+LSUH-NO (BSPH),2026-08-17,Fall,Class Start Date
+LSUH-NO (DNP),2026-08-17,Fall,Class Start Date
+LSUE,2026-08-17,Fall 1,Application Deadline
+LSUA,2026-08-18,Fall 1,Registration Deadline
+LSUE,2026-08-20,Fall 1,Early Registration Deadline
