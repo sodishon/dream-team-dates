@@ -1,0 +1,56 @@
+
+body{margin:0;background:#f7efe3;font-family:Arial,sans-serif}
+.dashboard{position:relative;max-width:1536px;margin:auto}
+.bg{width:100%;display:block}
+#search{
+ position:absolute;top:18.8%;left:45%;width:30%;
+ padding:10px;border:none;background:transparent;font-size:20px;
+}
+#upcoming{
+ position:absolute;top:18.5%;left:4%;width:36%;
+ font-size:16px;line-height:48px;color:#5b3418;font-weight:bold;
+}
+#weeks{
+ position:absolute;top:31%;left:47%;width:47%;
+ display:flex;justify-content:space-around;text-align:center;
+ color:#5b3418;font-weight:bold;
+}
+#sticky{
+ position:absolute;
+ top:45.2%;
+ right:4.8%;
+ width:8.5%;
+ text-align:center;
+ color:#5b3418;
+ font-size:24px;
+ font-weight:700;
+ line-height:1.15;
+}
+
+#sticky span{
+ color:#d84f4f;
+ font-weight:900;
+ font-size:1.2em;
+}
+#campusColors{
+ position:absolute;top:69%;right:4%;width:10%;
+ color:#5b3418;font-size:14px;line-height:28px;
+}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px}
+.dnp{background:#d95b57}.bsph{background:#8a8f3d}.lsua{background:#5566cc}.lsue{background:#8b5fbf}
+
+#deadlineTable{
+ position:absolute;top:49.5%;left:4%;width:75%;
+ border-collapse:collapse;color:#5b3418;
+}
+#deadlineTable td{padding:15px 10px;border-bottom:1px solid rgba(0,0,0,.05);font-size:15px}
+
+.badge{
+ color:#fff;padding:6px 12px;border-radius:20px;font-weight:bold;font-size:13px
+}
+.lsuaB{background:#5566cc}.lsueB{background:#8b5fbf}.bsphB{background:#8a8f3d}.dnpB{background:#d95b57}
+.days{font-weight:bold}
+
+@media(max-width:1200px){
+ #upcoming,#deadlineTable,#weeks,#sticky,#campusColors,#search{font-size:smaller}
+}
